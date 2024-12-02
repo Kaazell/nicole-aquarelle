@@ -1,0 +1,17 @@
+@use "../../styles/variables";
+
+.footer {
+    font-family: variables.$secondary-font;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: variables.$blue-blurry;
+    height: 10rem;
+    background-color: black;
+    &__text {
+        font-size: 18px;
+        margin: 0;
+        color: white;
+    }
+}

@@ -1,0 +1,144 @@
+[
+    {
+      "id": 1,
+      "title": "Booki",
+      "shortDescription": "Intégration Web",
+      "longDescription": "Ce projet met en œuvre HTML et CSS pour créer une page d'accueil responsive d'une agence de voyage, en suivant les maquettes Figma pour mobile, tablette et desktop.",
+      "fullDescription": "Dans ce projet, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Mon objectif principal était de concevoir une interface responsive à partir de maquettes Figma pour mobile, tablette, et desktop, en m'assurant que le site fonctionne parfaitement sur tous les appareils. J'ai choisi de coder manuellement plutôt que de m'appuyer sur l'outil code de Figma, ce qui m'a permis d'approfondir ma compréhension de la structuration et du stylisme du code. Cette expérience m'a permis de renforcer mes compétences en design responsive, un savoir-faire essentiel pour garantir une expérience utilisateur fluide, quel que soit l'appareil utilisé.",
+      "tags": ["HTML", "CSS", "Git"],
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki1.webp",
+          "alt": "Screenshot du site Booki 1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki2.webp",
+          "alt": "Screenshot du site Booki 2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki3.webp",
+          "alt": "Screenshot du site Booki 3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki4.webp",
+          "alt": "Screenshot du site Booki 4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p2-booki/refs/heads/main/screenshots/booki5.webp",
+          "alt": "Screenshot du site Booki 5"
+        }
+      ],
+      "githubLink": "https://github.com/Kaazell/p2-booki",
+      "websiteLink": "https://booki-three-indol.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Sophie Bluel",
+      "shortDescription": "Javascript",
+      "longDescription": "Création d'un site vitrine dynamique pour une illustratrice freelance. Il permet à l'artiste de présenter son travail et de recevoir des messages de clients potentiels.",
+      "fullDescription": "Dans ce projet, j'ai développé une page web dynamique pour une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travaillé sur le Front-End du site, en intégrant la présentation des projets de l'architecte et en manipulant le DOM pour gérer les interactions utilisateurs. J'ai également conçu une page de connexion pour l'administrateur ainsi qu'une modale d'upload de nouveaux médias, entièrement codées manuellement. Ce projet m'a permis de renforcer mes compétences en JavaScript, en gestion d'événements, et en communication avec une API, des compétences essentielles pour créer des sites web interactifs et performants.",
+      "tags": ["HTML", "CSS", "Javascript"],
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie1.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        },{
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie2.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        },{
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie3.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        },{
+          "url": "https://raw.githubusercontent.com/Kaazell/p3-sophie-portfolio/refs/heads/main/screenshots/sophie4.webp",
+          "alt": "Screenshot du site de Sophie Bluel"
+        }
+      ],
+      "githubLink": "https://github.com/Kaazell/p3-sophie-portfolio",
+      "websiteLink": ""
+    },
+    {
+      "id": 3,
+      "title": "Nina Carducci",
+      "shortDescription": "Optimisation",
+      "longDescription": "Optimisation du référencement (SEO) et de l'accessibilité d'un site web en utilisant des outils comme Lighthouse et Wave pour améliorer les performances et la visibilité.",
+      "fullDescription": "Dans ce projet, j’ai agi en tant que développeur freelance pour optimiser le référencement, la performance et l’accessibilité d’un site web. En utilisant des outils comme Lighthouse et Wave, j’ai d’abord identifié les problèmes de chargement et de SEO, puis j’ai proposé et appliqué des améliorations pour accélérer le site et optimiser son code.Enfin, j’ai réalisé un rapport illustrant les améliorations avant/après, en expliquant l'impact des changements sur le référencement et l'accessibilité. Ce projet m’a permis de renforcer mes compétences en optimisation SEO et en performance, des compétences clés pour améliorer la visibilité et l'expérience utilisateur sur le web.",
+      "tags": ["SEO", "Javascript", "Lighthouse", "Wave"],
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina1.webp",
+          "alt": "Screenshot du site de Nina Carducci"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina2.webp",
+          "alt": "Screenshot du site de Nina Carducci"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p5-nina/refs/heads/main/screenshots/nina3.webp",
+          "alt": "Screenshot du site de Nina Carducci"
+        }
+      ],
+      "githubLink": "https://github.com/Kaazell/p5-nina",
+      "websiteLink": "https://p5-nina.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "Kasa",
+      "shortDescription": "React",
+      "longDescription": "Implémentation du front-end d'une application avec React et React Router pour une expérience utilisateur moderne et réactive, en utilisant des données simulées et des maquettes fournies.",
+      "fullDescription": "Dans ce projet, j’ai implémenté le front-end d'une application en utilisant React et React Router pour offrir une navigation fluide entre les pages et une expérience utilisateur moderne. J'ai structuré et stylisé les composants en React, tout en configurant le routage pour gérer efficacement la navigation de l'application. En travaillant à partir de maquettes et de données simulées en JSON, j’ai pu approfondir mes compétences en React et en gestion de navigation, tout en utilisant SASS pour styliser l’interface. Ce projet m’a permis de maîtriser des outils essentiels pour créer des applications dynamiques et réactives, répondant aux attentes de l’industrie.",
+      "tags": ["React", "SCSS", "Javascript"],
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa1.webp",
+          "alt": "Screenshot du site Kasa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa2.webp",
+          "alt": "Screenshot du site Kasa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa3.webp",
+          "alt": "Screenshot du site Kasa"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p6-kasa/refs/heads/main/screenshots/kasa4.webp",
+          "alt": "Screenshot du site Kasa"
+        }
+      ],
+      "githubLink": "https://github.com/Kaazell/p6-kasa",
+      "websiteLink": "https://p6-kasa-omega.vercel.app/"
+    },
+    {
+      "id": 5,
+      "title": "Mon Vieux Grimoire",
+      "shortDescription": "NodeJS",
+      "longDescription": "Développement d'une API RESTful avec Node.js et Express pour gérer des livres et des auteurs, en utilisant une base de données MongoDB pour stocker les données.",
+      "tags": ["NodeJS", "Express", "MongoDB"],
+      "fullDescription": "Dans ce projet, j’ai développé le back-end d’un site de notation de livres en utilisant Express et MongoDB. J'ai structuré le serveur pour gérer la communication avec la base de données, en créant des modèles de données et en implémentant les opérations CRUD pour gérer les livres et leurs notes. J'ai également intégré un système d'authentification sécurisé et configuré le téléchargement et l'optimisation des images, tout en suivant les bonnes pratiques de Green Code. Grâce à ce projet, j’ai renforcé mes compétences en développement back-end, en sécurité des données et en architecture MVC, des compétences essentielles pour créer des applications web performantes et respectueuses de l'environnement.",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire1.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire2.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire3.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire4.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Kaazell/p7-mon-vieux-grimoire/refs/heads/main/screenshots/grimoire5.webp",
+          "alt": "Screenshot du site Mon Vieux Grimoire"
+        }
+      ],
+      "githubLink": "https://github.com/Kaazell/p7-mon-vieux-grimoire",
+      "websiteLink": ""
+    }
+  ]
+  
