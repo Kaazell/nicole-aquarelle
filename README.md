@@ -1,14 +1,12 @@
 # Site Portfolio d'Artiste
 
-Ce projet est un site portfolio moderne pour une artiste peintre, développé avec **React**, **Vite**, et **TypeScript**. Le site permet de mettre en valeur les œuvres de l'artiste, de partager son parcours et de proposer des œuvres à la vente.
-
+Ce projet est un site portfolio moderne pour une artiste peintre, développé avec **React**, **Vite**, et **TypeScript**. Le site permet de mettre en valeur les œuvres de l'artiste et de partager son parcours.
 ## ✨ Fonctionnalités
 
 - **Page d'accueil** : Présentation de l'artiste et mise en avant des œuvres phares.
 - **Galerie** : Affichage des œuvres avec des options de navigation.
 - **À propos** : Informations sur l'artiste et son univers.
 - **Contact** : Formulaire pour envoyer des messages ou demandes.
-- **E-commerce (si activé)** : Possibilité d'acheter des œuvres ou produits dérivés.
 
 ## 🛠️ Technologies utilisées
 
@@ -20,8 +18,8 @@ Ce projet est un site portfolio moderne pour une artiste peintre, développé av
 
 1. Clonez le dépôt :
    ```bash
-   git clone <URL-DU-DÉPÔT>
-   cd <nom-du-dossier>
+   git clone https://github.com/Kaazell/nicole-aquarelle
+   cd nicole-aquarelle
    ```
 
 2. Installez les dépendances :
