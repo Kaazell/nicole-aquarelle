@@ -1,6 +1,9 @@
 @use "../../styles/variables" as *;
 
 .landing {
+    background-image: url('../../assets/img/banner3.webp');
+    background-size: cover;
+    background-position: center;
     height: calc(100vh - 63px);
     padding: 1em;
     display: flex;
