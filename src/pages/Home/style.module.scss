@@ -2,7 +2,7 @@
 @use "../../styles/mixins" as *;
 
 .landing {
-    background-image: url('../../assets/img/banner3.webp');
+    background-image: url('../../assets/img/banner4.jpg');
     background-size: cover;
     background-position: center;
     height: calc(100vh - 63px);
@@ -16,12 +16,13 @@
         padding: 2em;
         background: rgba(0, 0, 0, 0.6);
         border-radius: 20px;
-        width: 100%;
+        max-width: 960px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         height: 70%;
+        max-height: 300px;
     }
     &__title {
         @include great-vibes;
@@ -38,18 +39,22 @@
     }
 }
 
-.post_landing {
-    max-width: 1160px;
-    margin: 0 auto;
+.artist {
     display: flex;
-    flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background: #FDFFEE;
+    overflow: hidden;
+    &__photo img {
+        width: 300px;
+        border-radius: 50%;
+    }
+    &__bio {
+        max-width: 500px;
+    }
 }
 
-h2 {
-    margin: 30px auto;
-    font-weight: 400;
-}
 
 @media screen and (min-width: 650px) {
     h2 {
