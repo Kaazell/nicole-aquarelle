@@ -64,8 +64,30 @@
     }
 }
 
+.display {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    img {
+        width: 100%;
+        max-width: 800px;
+    }
+}
+
 
 @media screen and (min-width: 830px) {
+    .landing {
+        &__center {
+            justify-content: center;
+        }
+        &__title {
+            font-size: 7em;
+        }
+        &__introduction {
+            font-size: 2.5em;
+    
+        }
+    }
     .artist {
         flex-direction: row;
         justify-content: space-around;
@@ -91,5 +113,8 @@
                 margin: 10px 0;
             }
         }
-    }         
+    }    
+    .display {
+        margin: 100px 0;
+    }     
 }

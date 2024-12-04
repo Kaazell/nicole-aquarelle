@@ -2,6 +2,7 @@ import React from "react";
 import s from "./style.module.scss";
 import Button from "../../components/Button/Button";
 import nicole from "../../assets/img/nicole-tremblay.png"
+import display from "../../assets/img/display.jpg"
 
 const Home: React.FC = () => {
   return (
@@ -21,6 +22,9 @@ const Home: React.FC = () => {
           <h2>À propos de l'artiste</h2>
           <p>L'artiste explore l'aquarelle avec une passion profonde, utilisant la fluidité de l'eau pour créer des œuvres vibrantes. Chaque peinture reflète son amour pour les nuances subtiles et les jeux de lumière. À travers ses pinceaux, elle transmet des émotions, invitant à une immersion poétique dans des paysages fascinants.</p>
         </div>
+      </section>
+      <section className={s.display}>
+        <img src={display} alt="display" />
       </section>
     </main>
   );
