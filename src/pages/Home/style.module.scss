@@ -14,7 +14,6 @@
     &__center {
         text-align: center;
         padding: 2em;
-        background: rgba(0, 0, 0, 0.6);
         border-radius: 20px;
         width: 100%;
         display: flex;
@@ -25,17 +24,15 @@
     }
     &__title {
         @include great-vibes;
-        color: white;
         font-size: 5em;
-        text-shadow: rgb(0, 10, 0) 2px 2px 2px;
+        text-shadow: rgb(254, 254, 254) 2px 2px 2px;
         max-width: 960px;
     }
     &__introduction {
         font-size: 2rem;
         max-width: 960px;
-        color: white;
-        text-shadow: rgb(0, 10, 0) 2px 2px 2px;
-
+        text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+        font-weight: 600;
     }
 }
 
