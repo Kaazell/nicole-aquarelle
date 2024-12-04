@@ -64,22 +64,32 @@
     }
 }
 
-@media screen and (min-width: 650px) {
-    .landing {
-        &__center {
-            justify-content: center;
+
+@media screen and (min-width: 830px) {
+    .artist {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        &__photo {
+            background-color: white;
+            padding: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            img {
+                width: 300px;
+                margin: 0 auto;
+                border-radius: 0%;
+            }
         }
-        &__title {
-            @include great-vibes;
-            font-weight: 700;
-            color: white;
-            font-size: 8em;
+        &__bio {
+            width: 50%;
+            h2 {
+                font-size: 1.7em;
+                margin: 20px 0;
+            }
+            p {
+                font-size: 1.2em;
+                margin: 10px 0;
+            }
         }
-        &__introduction {
-            font-size: 3rem;
-            max-width: 960px;
-            color: white;
-    
-        }
-    }    
+    }         
 }
