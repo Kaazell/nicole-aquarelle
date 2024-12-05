@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <div className={s.landing__center}>
           <h1 className={s.landing__title}>Nicole Tremblay</h1>
           <p className={s.landing__introduction}>Bienvenue dans l'univers onirique de l'aquarelle.</p>
-        <Button buttonName="Decouvrir la galerie" destination="#contact_form" />
+        <Button buttonName="Decouvrir la galerie" destination="/gallery" />
         </div>
       </section>
       <section className={s.artist}>

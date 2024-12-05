@@ -9,7 +9,8 @@ header {
     height: 63px;
     display: flex;
     justify-content: center;
-    background: rgba(181, 227, 151, 0.799)
+    background: rgba(181, 227, 151, 0.799);
+    backdrop-filter: blur(2px);
 }
 
 .header {
@@ -36,14 +37,14 @@ nav ul {
     justify-content: center;
     list-style: none; /* Pour retirer les puces des éléments de liste */
     padding: 0; /* Pour enlever le padding par défaut */
-    gap: 1rem; /* Ajustez la valeur selon l'espacement souhaité */
+    gap: 2rem; /* Ajustez la valeur selon l'espacement souhaité */
 
 }
   
 a {
     text-decoration: none;
     color: black;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: 500;
     position: relative;
 }
@@ -78,9 +79,14 @@ a {
     gap: 1rem;
 }
 
+@media screen and (min-width: 400px) {
+    .underline {
+        font-size: 1em;
+    }
+}
 
-@media screen and (max-width: 850px) {
-    nav {
-        display: none;
+@media screen and (min-width: 650px) {
+    .underline {
+        font-size: 1.2em;
     }
 }
