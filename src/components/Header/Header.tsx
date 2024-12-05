@@ -59,7 +59,7 @@ export function Header() {
                 href="#skills_section"
                 onClick={() => handleLinkClick("skills_section")}
               >
-                Compétences
+                Galerie
               </a>
             </li>
             <li>
@@ -68,16 +68,7 @@ export function Header() {
                 href="#portfolio_section"
                 onClick={() => handleLinkClick("portfolio_section")}
               >
-                Projets
-              </a>
-            </li>
-            <li>
-              <a
-                className={s.underline}
-                href="#contact_form"
-                onClick={() => handleLinkClick("contact_form")}
-              >
-                Contact
+                A propos
               </a>
             </li>
           </ul>
