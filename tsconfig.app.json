@@ -7,7 +7,6 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "typeRoots": ["./node_modules/@types", "./src/@types"],
-    "include": ["src/**/*", "global.d.ts"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",
