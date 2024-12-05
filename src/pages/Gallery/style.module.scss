@@ -1,0 +1,37 @@
+@use "../../styles/variables";
+@use "../../styles/mixins";
+
+.style {
+    display: block;
+    padding: 15px;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    max-width: 1100px;
+    margin-top: 70px;
+    h1 {
+        font-size: 5rem;
+        text-align: left;
+        font-family: "great vibes", cursive;
+    }
+    p {
+        margin-top: 40px;
+        font-size: 1.5rem;
+        text-align: right;
+        font-style: italic;
+    }
+}
+
+.image_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste le nombre de colonnes automatiquement */
+    gap: 16px; /* Espace entre les images */
+    padding: 16px; /* Espacement interne au conteneur */
+  }
+  
+  .image_container img {
+    width: 100%; /* L'image occupe tout l'espace disponible dans sa colonne */
+    height: 300px; /* Conserve les proportions de l'image */
+    border-radius: 8px; /* Optionnel : coins arrondis pour un rendu esthétique */
+    object-fit: cover; /* Coupe les images pour remplir leur conteneur (modifiez à "contain" si vous voulez voir l'intégralité des images) */
+  }
+  

@@ -18,16 +18,18 @@ export function Header() {
 
   // Fonction de gestion des clics pour la navigation
   const handleLinkClick = (sectionId: string) => {
-    // Redirige vers la page d'accueil
     navigate("/");
-
-    // Scroll vers la section voulue après un léger délai
     setTimeout(() => {
       const section = document.getElementById(sectionId);
       if (section) {
         section.scrollIntoView({ behavior: "smooth" });
       }
     }, 100);
+  };
+
+  // Fonction spécifique pour rediriger vers la galerie
+  const handleGalleryClick = () => {
+    navigate("/gallery");
   };
 
   return (
@@ -56,19 +58,13 @@ export function Header() {
             <li>
               <a
                 className={s.underline}
-                href="#skills_section"
-                onClick={() => handleLinkClick("skills_section")}
+                href="/gallery"
+                onClick={(e) => {
+                  e.preventDefault(); // Empêche le rechargement complet
+                  handleGalleryClick();
+                }}
               >
                 Galerie
-              </a>
-            </li>
-            <li>
-              <a
-                className={s.underline}
-                href="#portfolio_section"
-                onClick={() => handleLinkClick("portfolio_section")}
-              >
-                A propos
               </a>
             </li>
           </ul>
