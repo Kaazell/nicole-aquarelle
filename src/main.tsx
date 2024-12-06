@@ -7,7 +7,7 @@ import { Error } from "./pages/Error/Error.tsx";
 import "./index.css";
 import Home from "./pages/Home/Home.tsx";
 import WorkDetail from "./pages/WorkDetail/WorkDetail.tsx";
-import Gallery from "./pages/Gallery/Gallery.jsx";  
+import Gallery from "./pages/Gallery/Gallery.js";  
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
